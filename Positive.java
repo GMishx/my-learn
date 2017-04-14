@@ -1,11 +1,11 @@
 import java.util.Scanner;
 class Positive{
-	public static void main(){
+	public static void main(String args[]){
 		String input;
 		Scanner sc=new Scanner(System.in);
 		input = sc.next();
-		int in = Integer.parseInt(input);
-		if(in>=1){
+		int n = Integer.parseInt(input);
+		if(n>=1){
 			System.out.println(35);
 		}
 		else if(n==0){
